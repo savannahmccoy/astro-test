@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+// @import 'decanter/core/src/scss/decanter';
+
+$primary-color: #007bff;
+$font-family: Arial, sans-serif;
+
+// Styles for the component
+.my-component {
+  background-color: $primary-color;
+  color: white;
+  font-family: $font-family;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+// Additional styles
+.button {
+  background-color: $primary-color;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,18 @@
+---
+const {frontmatter} = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <!-- ... -->
+  <!-- <script type="module" src="/path/to/bundled-react-component.js"></script> -->
+
+  <head>
+    <meta charset="utf-8">
+  <!-- <link rel="stylesheet" type="text/css" href="/src/styles/styles.css"> -->
+	</head>
+  <h1>{frontmatter.title}</h1>
+  <h2>Post author: {frontmatter.author}</h2>
+  <p>{frontmatter.description}</p>
+  <slot /> <!-- Markdown content is injected here -->
+   <!-- ... -->
+</html>
